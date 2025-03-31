@@ -13,7 +13,6 @@ Este proyecto implementa un componente completo en **Adobe Experience Manager (A
 - Filtro por tags
 - Buscador en tiempo real
 - Conexión a la API externa [RAWG](https://rawg.io/apidocs)
-- Paginación backend (pendiente)
 - Service OSGi configurable por entorno (`dev`, `stage`, `prod`)
 - Pruebas unitarias con JUnit5 y wcm.io AEM Mock
 
@@ -48,7 +47,7 @@ ja-developer/
 ## ️ Instalación y Despliegue
 
 ```bash
-git clone https://github.com/tu-org/ja-developer-aem.git
+git clone https://github.com/javieralquinga/-Dynamic-Search-Cards-JA.git
 cd ja-developer
 ```
 
