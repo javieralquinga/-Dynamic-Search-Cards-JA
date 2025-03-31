@@ -1,0 +1,6 @@
+<jcr:root
+        xmlns:jcr="http://www.jcp.org/jcr/1.0"
+        jcr:primaryType="cq:ClientLibraryFolder"
+        categories="[ja-developer.dynamicsearchcards]"
+        dependencies="[core.wcm.components.commons.site]">
+</jcr:root>

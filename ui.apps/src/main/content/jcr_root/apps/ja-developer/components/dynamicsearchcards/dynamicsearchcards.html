@@ -1,0 +1,31 @@
+<sly data-sly-use.model="com.jadeveloper.core.models.DynamicSearchCardsModel"
+     data-sly-use.clientLib="/libs/granite/sightly/templates/clientlib.html" />
+
+<sly data-sly-call="${clientLib.css @ categories='ja-developer.dynamicsearchcards'}" />
+
+
+<!-- Loader -->
+
+<div class="cmp-dynamic-search-cards"
+     data-endpoint="${model.externalApiEndpoint @ context='unsafe'}">
+
+    <h2>${model.title}</h2>
+
+    <input type="text"
+           id="search-input"
+           placeholder="Buscar tarjetas..."
+           aria-label="Buscar contenido" />
+
+    <div id="tag-filters" role="navigation" aria-label="Filtrar por categoría"></div>
+
+    <div id="cards-loading" class="cmp-cards-loading" aria-hidden="true">
+        <div class="spinner"></div>
+        <span>Cargando tarjetas...</span>
+    </div>
+
+    <div id="cards-container" class="cmp-cards-container" role="list">
+        <!-- Render dinámico -->
+    </div>
+</div>
+
+<sly data-sly-call="${clientLib.js @ categories='ja-developer.dynamicsearchcards'}" />

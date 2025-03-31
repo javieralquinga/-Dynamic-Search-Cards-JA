@@ -1,0 +1,4 @@
+{
+  "endpointUrl": "https://api.rawg.io/api/games?key=d4be932dbd8b4f77b89d9c076a564a07&dates=2024-01-01,2024-12-31&platforms=18,1,7",
+  "timeout": 8000
+}
